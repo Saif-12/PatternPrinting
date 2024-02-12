@@ -12,7 +12,7 @@ public class Assignment1 {
 		{
 			for(int j=1;j<=col;j++)
 			{
-				System.out.print(j+" ");
+				System.out.print(j+" ");  // this is print 1 to length of col
 			}
 			System.out.println();
 		}

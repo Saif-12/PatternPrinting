@@ -8,11 +8,11 @@ public class Assignment1 {
 		Scanner s=new Scanner(System.in);
 		int row=s.nextInt();
 		int col=s.nextInt();
-		for(int i=0;i<row;i++)
+		for(int i=1;i<=row;i++)
 		{
 			for(int j=1;j<=col;j++)
 			{
-				System.out.print(j+" ");  // this is print 1 to length of col
+				System.out.print(i+" ");
 			}
 			System.out.println();
 		}
